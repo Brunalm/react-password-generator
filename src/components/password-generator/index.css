@@ -1,57 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 .container {
-  padding: 8px;
+  align-items: center;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   font-family: 'Poppins', sans-serif;
-  background-color: #ffffff;
-
+  justify-content: center;
+  padding: 8px;
   position: absolute;
-  top: 0;
-  right: 0;
+
   bottom: 0;
   left: 0;
+  right: 0;
+  top: 0;
 }
 
 .title {
+  color: #191970;
   text-align: center;
   padding: 24px;
-  color: #191970;
 }
 
 input {
-  box-shadow: 0;
-  border-radius: 4px;
-  padding: 4px;
   border: 1px solid;
+  border-radius: 4px;
+  box-shadow: 0;
   margin: 8px;
+  padding: 4px;
   text-align: center;
 }
 
 input:focus {
   box-shadow: 0 0 0 0;
   outline: 0;
-}
-
-button {
-  border-radius: 8px;
-  cursor: pointer;
-  padding: 8px;
-  font-size: 16px;
-  background-color: #191970;
-  color: #ffffff;
-  margin-top: 32px;
-  border: 1px solid #191970;
-  padding: 8px 24px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-}
-
-.submit {
-  text-align: center;
 }
 
 label {
@@ -69,21 +51,35 @@ input[type='number']::-webkit-inner-spin-button {
 }
 
 input[type='number'] {
-  width: 32px;
   margin: 4px;
   margin-right: 8px;
+  width: 32px;
 }
 
 .card {
+  align-items: center;
   background-color: #dcdcdc;
-  border-radius: 8px;
   border: 1px solid #dcdcdc;
+  border-radius: 8px;
   color: black;
   display: flex;
   font-size: 12px;
+  font-weight: bold;
   justify-content: space-between;
-  position: relative;
-  align-items: center;
   margin-bottom: 8px;
+  position: relative;
+}
+
+button {
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 16px;
+  background-color: #191970;
+  color: #ffffff;
+  margin-top: 32px;
+  border: 1px solid #191970;
+  padding: 8px 24px;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
